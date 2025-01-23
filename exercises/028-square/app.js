@@ -1,1 +1,5 @@
-// Write your function here
+const square = (num) => {
+    return console.log(num ** 2);
+}
+
+square(10);

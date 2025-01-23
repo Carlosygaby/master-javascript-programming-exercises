@@ -1,4 +1,6 @@
 function getLengthOfTwoWords(word1, word2) {
-  // your code here
-  
+  return console.log(word1.length + word2.length);
+
 }
+
+getLengthOfTwoWords("hola", "beba");

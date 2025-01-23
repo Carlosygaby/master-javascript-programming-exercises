@@ -1,1 +1,5 @@
-// Write your function here
+const isOddLength = (word) => {
+    if (word.length % 2 === 0 ? console.log(true) : console.log(false));
+}
+
+isOddLength("bobino");
