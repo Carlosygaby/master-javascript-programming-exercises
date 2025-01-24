@@ -1,4 +1,13 @@
+let person1 = {
+  age: 32,
+};
+
 function isPersonOldEnoughToDrink(person) {
-  // Add your code after this line
-  
+  if (person.age >= 21) {
+    return true;
+  } else if (person.age < 21) {
+    return false;
+  }
 }
+
+console.log(isPersonOldEnoughToDrink(person1));
